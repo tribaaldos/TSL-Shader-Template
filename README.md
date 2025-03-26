@@ -1,13 +1,29 @@
-# React + Vite
+# 🌐 TSL Shader Template – React Three Fiber + WebGPU
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, WebGPU-ready shader template using **TSL (Three Shading Language)**, **React Three Fiber**, and **Leva** for live parameter control.
 
-Currently, two official plugins are available:
+This project is a translation of the iconic shader from [The Art of Code – Shader Art](https://www.youtube.com/watch?v=f4s1h2YETNY&t=1186s), originally written in GLSL for Shadertoy. It’s now rewritten using TSL – the new node-based shader system for Three.js.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ Built with **TSL** – Three.js Shading Language
+- ✅ Powered by **WebGPU** via `THREE.WebGPURenderer`
+- ✅ Fully reactive with **React Three Fiber**
+- ✅ Live tweaking with **Leva**
+- ✅ Open source and easy to fork for your own experiments
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# TSL-Shader-Template
+## 🧱 Tech Stack
+
+- [Three.js](https://threejs.org/)
+- [TSL (Three Shading Language)](https://github.com/mrdoob/three.js/tree/dev/examples/jsm/nodes)
+- [React Three Fiber (R3F)](https://github.com/pmndrs/react-three-fiber)
+- [WebGPU](https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API)
+- [Leva](https://leva.pmnd.rs/) for live controls
+
+## 🔧 Installation
+
+Make sure you have **Node.js** installed. Then:
+
+```bash
+yarn
+yarn run dev
